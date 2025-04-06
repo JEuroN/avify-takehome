@@ -3,7 +3,8 @@
   "scripts": {
     "test": "jest",
     "start": "webpack-dev-server --hot --progress",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "preview": "webpack serve --mode production"
   },
   "dependencies": {
     "@types/recharts": "^2.0.1",
