@@ -11,5 +11,8 @@
     ],
     "outDir": "./build"
   },
-  "exclude": ["build"]
+  "exclude": ["build"],
+  "include": [
+    "./setupTests.ts"
+  ]
 }

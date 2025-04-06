@@ -1,0 +1,43 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #EBE9E1;
+  color: #E43D12
+}
+
+body{
+  background-color: #EBE9E1;
+}
+
+.controls-container {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filters-container {
+  margin: 0.75rem 0;
+  display: flex;
+}
+
+.chart-container {
+  text-transform: capitalize;
+}
+
+.date-range {
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  background-color: #D6536D;
+  color: white;
+  border-radius: 0.25rem;
+  font-size: 0.9rem;
+}
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
